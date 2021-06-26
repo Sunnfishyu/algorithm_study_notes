@@ -1,0 +1,15 @@
+Backtracking = traversing a decision tress 
+
+1. path 
+
+2. selection list 
+
+3. end condition
+
+result = [] def backtrack(Path, Seletion List ): if meet the End Conditon: result.add(Path) return for seletion in Seletion List: select backtrack(Path, Seletion List) deselect 
+
+References: 
+
+https://github.com/labuladong/fucking-algorithm/blob/english/think_like_computer/DetailsaboutBacktracking.md 
+
+https://www.youtube.com/watch?v=Zq4upTEaQyM 
